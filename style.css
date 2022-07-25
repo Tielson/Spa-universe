@@ -14,7 +14,7 @@
 
 
 body {
-  background-image: url(Img/mountains-universe-1\ 1.png);
+  background-image: url(/Img/mountains-universe-1\ 1.png);
   background-size: cover;
   object-fit: cover;
   background-position: center;
@@ -22,13 +22,13 @@ body {
   min-width: 100vw;
 }
 
-body .bg-universe {
-  background-image: url(Img/mountains-universe-2.png);
-  display: inline;
+body.bg-universe {
+  background-image: url(./Img/mountains-universe-2.png);
+ 
 }
 
-body .bg-exploration {
-  background-image: url(Img/mountains-universe-3.png);
+body.bg-exploration {
+  background-image: url(./Img/mountains-universe-3.png);
 }
 
 
@@ -150,7 +150,7 @@ h1 {
 
   background: none;
   border: 2px solid #FFFFFF;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   padding: 1.2rem 3.2rem;
   display: flex;
   align-items: center;
@@ -179,11 +179,11 @@ h1 {
 }
 
 .home a :hover,
-.home a:active {
+.home a :active {
   background: #FFFFFF;
   border: 2px solid #FFFFFF;
   border-radius: 5px;
-  padding: 12px 32px;
+  padding: 1.2rem 3.2rem;
   text-transform: uppercase;
   color: #02799D;
 }

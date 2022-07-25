@@ -6,7 +6,6 @@ router.add("/exploration", "/pages/exploration.html")
 router.add(404, "/pages/404.html")
 
 
-
 router.handle()
 
 window.onpopstate = () => router.handle()
@@ -17,6 +16,8 @@ const homeButton = document.querySelector('.bg-home')
 const universeButton = document.querySelector('.bg-universe')
 const explorationButton = document.querySelector('.bg-exploration')
 const pageBg = document.querySelector('body')
+
+
 
 
 homeButton.addEventListener('click', () => {
